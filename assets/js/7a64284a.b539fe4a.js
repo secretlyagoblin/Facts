@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7377],{22:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/http://wanderingroad.games/blog/tags/hello","allTagsPath":"/http://wanderingroad.games/blog/tags","count":2}')}}]);

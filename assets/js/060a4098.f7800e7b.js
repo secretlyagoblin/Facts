@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5537],{964:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/http://wanderingroad.games/blog/tags/docusaurus","allTagsPath":"/http://wanderingroad.games/blog/tags","count":4}')}}]);
