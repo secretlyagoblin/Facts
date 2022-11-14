@@ -4,42 +4,44 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Simon's Lament",
+    img: require('@site/static/img/lament.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        See if you can outrun the world's collapse as you collect artifacts to pull it back together.
       </>
     ),
+    link: "https://wanderingroad.itch.io/simons-lament"
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Châteauxuaetâhc',
+    img: require('@site/static/img/chateauxuaetahc.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        An exploration of procedural symmetry and modularity in your browser.
       </>
     ),
+    link: "https://wanderingroad.itch.io/chteauxuaethc"
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Into the Valley',
+    img: require('@site/static/img/valley.png').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Explore a quiet, procedurally generated valley, and enjoy the sights.
       </>
     ),
+    link: "https://wanderingroad.itch.io/into-the-valley"
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({img, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <a href={link}>
+        <img src={img} />
+        </a>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
